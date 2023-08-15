@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin-top: 15%;
+    margin-left: 35%;
+}
+h2 {
+    margin-left: 10px;
+    margin-right: 570px;
+    margin-top: 10px;
+    padding: 25px;
+    background: linear-gradient(45deg, #ff9933, white, green);
+    border: 2px solid black;
+    border-radius: 25px;
+   
+}
+.top,.middle,.bottom {
+    
+    height: 60px;
+    width: 350px;
+}
+
+.top {
+    background-color: #ff9933;
+    border: 1px solid black;
+}
+
+.middle {
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+
+.bottom {
+    background-color: green;
+    border: 1px solid black;
+}
+
+img {
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
